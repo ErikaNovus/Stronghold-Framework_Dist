@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stronghold Testing</title>
+    <meta name="author" content="Bill Chandler">
+    <meta name="description" content="Stronghold Framework Testing Sandbox">
+    <link rel="stylesheet" href="assets/css/layout.min.css"><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="full-pod show-default">
+      <div class="row">
+        <ul id="mobile-navigation" class="navi clear-it">
+          <li><a href="#">This is the mobile navi</a></li>
+          <li><a href="#">Which only appears when the screen</a></li>
+          <li><a href="#">is smaller than 768px</a></li>
+          <li class="push"><a href="#">Perfect for use with mobiles</a></li>
+          <li class="push"><a href="#">and can be made seperate from</a></li>
+          <li class="push"><a href="#">the main site navigation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="full-pod">
+      <div class="row">     
+        <div id="banner" class="slider">
+          <ul>
+            <li><a href="#"><img src="http://placehold.it/1920x500/FF0000/ffffff?text=This+banner+uses+javascript" alt="Placeholder"></a></li>
+            <li><a href="#"><img src="http://placehold.it/1920x500/0000FF/ffffff?text=and+can+be+init+with+.banner" alt="Placeholder"></a></li>
+            <li><a href="#"><img src="http://placehold.it/1920x500/008000/ffffff?text=speed+can+be+changed+in+the+configs" alt="Placeholder"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <ul id="main-navi" class="navi hide-default">
+          <li><a href="#">Left</a></li>
+          <li><a href="#">Left 2</a></li>
+          <li><a href="#">Left 3</a></li>
+          <li class="push"><a href="#">Right</a></li>
+          <li class="push"><a href="#">Right 2</a></li>
+          <li class="push"><a href="#">Right 3</a></li>
+        </ul>
+      </div>
+      <div class="full-pod good">       
+        <h3><code>.full-pod</code> these are containers that fill the width of the browser</h3>
+      </div>
+      <div class="pod bad">
+        <h3><code>.pod</code> these are containers that fill 96% of the browser and center within it</h3>          
+      </div>
+      <div class="full-pod good">
+        <h3><code>.pods</code> and <code>.full-pod</code> can be nested</h3>
+        <div class="pod medium">
+          <h4><code>.pod</code> inside of a <code>.full-pod</code></h4>
+          <div class="pod bad">
+            <h5><code>.pod</code> inside of a <code>.pod</code> inside of a <code>.full-pod</code></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pod">
+      <div class="row">
+        <div class="riser-12">
+          <div class="block shadow-left">
+            <div class="block-head">
+              <h3>riser-12</h3>
+            </div>
+            <div class="block-body"><img src="http://placehold.it/1400x400/000000/ffffff?text=Images+inside+of+blocks+become+responsive" class="no-bleed">
+              <div class="row tCenter">
+                <p>But if an image is too large it will bleed out of the <code>.block</code> this can be stopped by adding the <code>.no-bleed</code> utility class to the image.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="riser-12 riser-s6">
+          <div class="block shadow-left">
+            <div class="block-head">
+              <h3>riser-12, riser-s6<a class="push" href="#">link</a></h3>
+            </div>
+            <div class="block-body">
+              <h5>Each of these paragraphs are inside a seperate <code>.block-body</code> class</h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam pariatur labore cum distinctio nam inventore obcaecati atque aut laborum placeat blanditiis voluptatum, a quas eum animi doloribus velit dolorum maxime!</p>
+            </div>
+            <div class="block-body">
+              <h5>Each of these paragraphs are inside a seperate <code>.block-body</code> class</h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cumque culpa nam eaque nesciunt? Maiores ipsa vitae fuga eligendi consectetur pariatur molestias asperiores dicta autem at. Cum voluptates voluptatum quaerat!</p>
+            </div>
+            <div class="block-body">
+              <h5>Each of these paragraphs are inside a seperate <code>.block-body</code> class</h5>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cumque culpa nam eaque nesciunt? Maiores ipsa vitae fuga eligendi consectetur pariatur molestias asperiores dicta autem at. Cum voluptates voluptatum quaerat!</p>
+            </div>
+          </div>
+        </div>
+        <div class="riser-12 riser-s6">
+          <div class="row">
+            <div class="riser-6">
+              <div class="block shadow-left">
+                <div class="block-head">           
+                  <h3>riser-6                </h3>
+                </div>
+                <div class="block-body">
+                  <ul class="block-list">
+                    <li class="round"><span class="fa fa-bars"></span><span class="li-title">Lists</span><span class="li-body">inside of <code>.block-body</code></span></li>
+                    <li class="round"><span class="fa fa-bars"></span><span class="li-title">Font Awesome</span><span class="li-body"><code>.fa .fa-bars</code></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="riser-6">
+              <div class="block shadow-left">
+                <div class="block-head">
+                  <h3>riser-6 </h3>
+                </div>
+                <div class="block-body">
+                  <ul class="block-list">
+                    <li class="round"><span class="fa fa-cogs"></span><span class="li-title">Lists</span><span class="li-body">Stick out</span></li>
+                    <li class="round"><span class="fa fa-cogs"></span><span class="li-title">Font Awesome</span><span class="li-body"><code>.fa .fa-cogs</code></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="riser-6">
+              <div class="block shadow-left">
+                <div class="block-head">           
+                  <h3>riser-6                 </h3>
+                </div>
+                <div class="block-body">
+                  <ul class="block-list">
+                    <li class="round"><span class="fa fa-child"></span><span class="li-title">By default</span><span class="li-body">They match site colour</span></li>
+                    <li class="round"><span class="fa fa-child"></span><span class="li-title">Font Awesome</span><span class="li-body"><code>.fa .fa-child</code></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="riser-6">
+              <div class="block shadow-left">
+                <div class="block-head">
+                  <h3>riser-6 </h3>
+                </div>
+                <div class="block-body">
+                  <ul class="block-list">
+                    <li class="round"><span class="fa fa-diamond"></span><span class="li-title">Icons</span><span class="li-body">background is responsive</span></li>
+                    <li class="round"><span class="fa fa-diamond"></span><span class="li-title">Font Awesome</span><span class="li-body"><code>.fa .fa-diamond</code></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pod">
+      <div class="row">
+        <div class="riser-4">
+          <div class="block">
+            <div class="block-body">
+              <div class="img-pod-vert"><img src="http://placehold.it/700x700/63BAAD/ffffff">
+                <div class="img-pod-text">
+                  <div class="img-title">This is an <code>.img-title</code></div>
+                  <div class="img-desc">Which must be placed within an <code>.img-pod-text</code></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="riser-4">
+          <div class="img-pod-vert"><img src="http://placehold.it/700x700/9463BA/ffffff" class="shadow-left">
+            <div class="img-pod-text">
+              <div class="img-title">These three are inside of <code>.img-pod-vert</code></div>
+              <div class="img-desc">so they stack above each other like thumbnails (this one has a drop shadow using <code>.shadow-left</code></div>
+            </div>
+          </div>
+        </div>
+        <div class="riser-4">
+          <div class="img-pod-vert"><img src="http://placehold.it/700x700/BAB363/ffffff">
+            <div class="img-pod-text">
+              <div class="img-title">Any image placed inside of an <code>.img-pod-...</code></div>
+              <div class="img-desc">Becomes Responsive by default!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="riser-12">
+          <div class="block">
+            <div class="block-body">
+              <div class="img-pod-horz"><img src="http://placehold.it/100x100/6678D1/ffffff" class="circle">
+                <div class="img-pod-text">
+                  <div class="img-title">This is an <code>.img-pod-horz</code> and looks more like a news item</div>
+                  <div class="img-desc">with a detailed description. You can fit much more information on this than a <code>.img-pod-vert</code><br> This img-pod is placed within a <code>.block</code> and <code>.block-body</code> and so matches the format of the blocks above. (The image is also a rounded square using <code>.circle</code>)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="img-pod-horz"><img src="http://placehold.it/100x100/6678D1/ffffff">
+            <div class="img-pod-text">
+              <div class="img-title">This is the same image as above without the <code>.circle</code> class</div>
+              <div class="img-desc">The image and text are also <strong>not</strong> inside of a block and as such do not get moved inwards and do not have a background colour.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/config.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/stronghold.min.js"></script>
+  </body>
+</html>

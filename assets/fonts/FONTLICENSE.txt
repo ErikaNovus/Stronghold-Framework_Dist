@@ -1,0 +1,10 @@
+Fonts used in this framework by default are:
+
+Soft Elegance by Douglas Charles Cunha.
+Taken from dafont.com/soft-elegance.font and licensed as "100% Free"
+
+Monofur by Tobias Benjamin Kohler.
+Taken from dafont.com/monofur.font
+
+Font Awesome is Open Source
+https://fortawesome.github.io/Font-Awesome/license/
